@@ -34,7 +34,7 @@ await transaction.sendAndConfirm(umi);
 
 const createdCollectionNft = await fetchDigitalAsset(umi, collectionMint.publicKey);
 
-console.log(`Created collection! Address is ${getExplorerLink("address", 
-    createdCollectionNft.mint.publicKey, 
+console.log(`Created collection! Address is ${getExplorerLink("address",
+    createdCollectionNft.mint.publicKey,
     "devnet")}`
 );
